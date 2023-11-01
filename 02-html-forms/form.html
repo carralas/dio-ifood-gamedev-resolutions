@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form name="signup" autocomplete="on" method="post">
+        <label>Nome: </label><input type="text" name="name"><br>
+        <label>Senha: </label><input type="password" name="pass"><br>
+        <label>Idade: </label><input type="number" min="0" step="5" max="120" name="age"><br>
+        <label>Data: </label><input type="date"><br>
+        <label>Satisfação: </label><input type="range" min="0" step="5"  max="100" value="100"><br>
+        <label>Cor :</label><input type="color"><br>
+        <label>Arquivo: </label><input type="file" multiple><br>
+        <input type="hidden">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
