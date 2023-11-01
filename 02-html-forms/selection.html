@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção</title>
+</head>
+<body>
+    <h1>Pizza</h1>
+    <h2>Sabor:</h2>
+    <form method="post">
+        <input type="radio" name="sabor" value="calabresa"> Calabresa<br>
+        <input type="radio" name="sabor" value="marguerita"> Marguerita<br>
+        <input type="radio" name="sabor" value="4-queijos"> Quatro Queijos<br>
+    </form>
+    <h2>Adicional</h2>
+    <form method="post">
+        <input type="checkbox" disabled name="adicional[]" value="azeitona"> + azeitona<br>
+        <input type="checkbox" name="adicional[]" value="bacon"> + bacon<br>
+        <input type="checkbox" name="adicional[]" value="cebola"> + cebola<br>
+        <input type="checkbox" name="adicional[]" value="ovo"> + ovo
+    </form>
+</body>
+</html>
