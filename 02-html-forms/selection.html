@@ -8,17 +8,22 @@
 <body>
     <h1>Pizza</h1>
     <h2>Sabor:</h2>
-    <form method="post">
-        <input type="radio" name="sabor" value="calabresa"> Calabresa<br>
-        <input type="radio" name="sabor" value="marguerita"> Marguerita<br>
-        <input type="radio" name="sabor" value="4-queijos"> Quatro Queijos<br>
-    </form>
+    <select name="sabor">
+        <option value="calabresa">Calabresa</option>
+        <option value="marguerita">Marguerita</option>
+        <option value="4-queijos">Quatro Queijos</option>
+    </select>
     <h2>Adicional</h2>
     <form method="post">
         <input type="checkbox" disabled name="adicional[]" value="azeitona"> + azeitona<br>
         <input type="checkbox" name="adicional[]" value="bacon"> + bacon<br>
         <input type="checkbox" name="adicional[]" value="cebola"> + cebola<br>
         <input type="checkbox" name="adicional[]" value="ovo"> + ovo
+    </form>
+    <h2>Borda Recheada:</h2>
+    <form method="post">
+        <input type="radio" name="recheada" value="sim"> Sim<br>
+        <input type="radio" name="recheada" value="não"> Não<br>
     </form>
 </body>
 </html>
