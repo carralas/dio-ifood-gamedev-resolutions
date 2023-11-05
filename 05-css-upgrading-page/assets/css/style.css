@@ -1,0 +1,48 @@
+.header-box {
+    width: 500px;
+    text-align: center;
+    border-style: dotted;
+}
+
+.header-text {
+    font-size: 40;
+}
+
+.header-faction-flag {
+    height: 100px;
+}
+
+.row {
+    width: 500px;
+    display: flex;
+}
+
+.speech-structure {
+    width: 260px;
+    border-style: dotted;
+}
+
+.character-name {
+    face: "'Gill Sans', Arial";
+    font-weight: bold;
+}
+
+.mention {
+    font-style: italic;
+}
+
+.photo-box {
+    width: 120px;
+    align-items: center;
+    border-style: dotted;
+}
+
+.photo-left {
+    transform: scaleX(1);
+    width: 100px;
+}
+
+.photo-right {
+    transform: scaleX(-1);
+    width: 100px;
+}
