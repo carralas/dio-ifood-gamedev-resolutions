@@ -1,0 +1,36 @@
+ul {
+    background-color: bisque;
+}
+
+.cor-predefinida{
+    color: steelblue;
+    background: black;
+}
+
+.cor-rgb {
+    color: rgb(70, 130, 180);
+    background: transparent;
+    border: 1px solid currentColor;
+}
+
+.cor-rgba {
+    color: rgba(70, 130, 180, .5);
+}
+
+.cor-hexadecimal {
+    color: #4682b4;
+    border: 1px solid #000000;
+}
+
+.cor-transhexadecimal {
+    color: #4682b47f;
+}
+
+.cor-hsl {
+    color: hsl(207, 44%, 49%);
+    background: hsl(0, 0%, 100%);
+}
+
+.cor-hsla {
+    color: hsla(207, 44%, 49%, .5);
+}
