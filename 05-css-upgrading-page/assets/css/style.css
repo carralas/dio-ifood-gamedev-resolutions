@@ -1,9 +1,12 @@
+div {
+    margin: 5px;
+}
+
 .header-box {
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: dotted;
 }
 
 .header-text {
@@ -25,7 +28,7 @@
 }
 
 .character-name {
-    face: "'Gill Sans', Arial";
+    font-style: "'Gill Sans', Arial";
     font-weight: bold;
 }
 
@@ -37,7 +40,6 @@
     width: 120px;
     justify-content: center;
     align-items: center;
-    border-style: dotted;
 }
 
 .photo-left {
