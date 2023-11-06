@@ -1,0 +1,42 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+    margin: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#img-1 {
+    object-fit: fill;
+}
+
+#img-2 {
+    object-fit: contain;
+}
+
+#img-3a {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#img-3b {
+    object-fit: cover;
+    object-position: 0px -10px;
+}
+
+#img-3c {
+    object-fit: cover;
+    object-position: right bottom;
+}
+
+#img-4 {
+    object-fit: none;
+}
+
+#img-5 {
+    object-fit: scale-down;
+}
