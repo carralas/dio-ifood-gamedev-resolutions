@@ -1,0 +1,19 @@
+li li {
+    font-weight: bold;
+}
+
+.main-element-1 li {
+    color: red;
+}
+
+.main-element-2 li {
+    color: green;
+}
+
+.main-element-3 li {
+    color: blue;
+}
+
+li li.special-element {
+    font-style: italic;
+}
