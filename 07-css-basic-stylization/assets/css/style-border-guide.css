@@ -1,0 +1,47 @@
+div {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    margin: 5px;
+}
+
+#border-width {
+    border-width: 2px 4px;
+}
+
+#border-style {
+    border-style: double dashed;
+}
+
+#border-color {
+    border-color: purple yellow;
+}
+
+#unified {
+    border: 3px dotted green;
+    border-bottom: 4px solid lightgreen;
+    border-right-style: groove;
+}
+
+#border-radius-1 {
+    border-radius: 25px;
+}
+
+#border-radius-2 {
+    border-radius: 100px/25px;
+}
+
+#border-image {
+    border-image-source: url(../img/bratty-n-catty.png);
+    border-image-slice: 300;
+    border-image-width: 25px 10px;
+    border-image-repeat: space;
+}
+
+#border-image-out {
+    border-image-source: url(../img/bratty-n-catty.png);
+    border-image-slice: 300;
+    border-image-width: 25px 10px;
+    border-image-repeat: space;
+    border-image-outset: 1;
+}
