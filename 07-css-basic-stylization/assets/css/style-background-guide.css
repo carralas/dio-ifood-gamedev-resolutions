@@ -1,0 +1,76 @@
+div {
+    border: 1px solid #000000;
+    margin: 5px;
+}
+
+div#main {
+    width: 1045px;
+    display: flex;
+}
+
+div#col {
+    width: 510px;
+}
+
+div.inner {
+    width: 500px;
+    height: 75px;
+}
+
+p {
+    width: 500px;
+    height: fit-content;
+    color: white;
+    border: 1px solid #000000;
+    margin: 5px;
+}
+
+#grad {
+    background-image: linear-gradient(blue, yellow);
+}
+
+#radgrad {
+    background-image: radial-gradient(blue, yellow);
+}
+
+#repgrad {
+    background-image: repeating-linear-gradient(to right, blue 0px 100px, yellow 100px 150px);
+}
+
+.bg-img {
+    background-image: url(../img/bg-napstablook.png);
+}
+
+#size-auto {
+    background-size: auto;
+}
+
+#size-cover {
+    background-size: cover;
+}
+
+#size-contain {
+    background-size: contain;
+}
+
+#size-manual {
+    background-size: 50% 100%;
+}
+
+#layered {
+    background-image: linear-gradient(yellow, transparent), url(../img/bg-napstablook.png);
+    background-size: contain;
+}
+
+#stationary-img {
+    background-attachment: fixed;
+}
+
+#unified {
+    height: fit-content;
+    color: white;
+    background:
+      url(../img/bg-napstablook.png)
+      top center / 75px 75px
+      space;
+}
