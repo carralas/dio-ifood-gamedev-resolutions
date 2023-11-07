@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+    background: lightcyan;
+    margin: 10px;
+}
+
+#box-shadow {
+    box-shadow: 30px 30px 10px -10px pink;
+}
+
+#inset-shadow {
+    box-shadow: inset 30px 30px 5px 20px pink;
+}
+
+#img-shadow {
+    filter: drop-shadow(10px 10px 5px gray); 
+}
+
+#text-shadow {
+    text-shadow: 2px 2px 5px gray;
+}
