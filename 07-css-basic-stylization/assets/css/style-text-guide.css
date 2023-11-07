@@ -1,0 +1,46 @@
+#transform {
+    text-transform: uppercase;
+}
+
+#align {
+    text-align: right;
+}
+
+#decoration {
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: pink;
+    text-decoration-thickness: .5px;
+}
+
+#ident {
+    text-indent: -25px;
+}
+
+#spacing {
+    letter-spacing: -1px;
+    word-spacing: 5px;
+}
+
+#white-space {
+    white-space: pre;
+}
+
+#word-wrap {
+    word-wrap: break-word;
+}
+
+#word-break {
+    word-break: break-all;
+}
+
+#writing-mode {
+    writing-mode: vertical-rl;
+}
+
+#overflow {
+    width: 500px;
+    white-space: nowrap;
+    background-color: gray;
+    text-overflow: ellipsis;
+}
