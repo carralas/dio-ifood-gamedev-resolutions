@@ -1,0 +1,44 @@
+@font-face {
+    font-family: CutiveMono;
+    src: local(), url(../fonts/Cutive_Mono/CutiveMono-Regular.ttf);
+}
+
+p {
+    font-family: CutiveMono;
+}
+
+#size {
+    font-size: 8px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}
+
+#weight {
+    font-weight: 600;
+}
+
+#variant {
+    font-variant: small-caps;
+}
+
+#stretch {
+    font-stretch: ultra-expanded;
+}
+
+#high-height {
+    line-height: .9;
+}
+
+#low-height {
+    line-height: 150%;
+}
+
+#condensed {
+    font: italic small-caps bold 12px/1.5 CutiveMono
+}
