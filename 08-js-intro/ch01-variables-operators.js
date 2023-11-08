@@ -5,4 +5,4 @@ var gasto_total;
 
 gasto_total = (distancia_km/custo_km_por_l)*preco_combustivel_l
 
-console.log(gasto_total)
+console.log(gasto_total.toFixed(2))
