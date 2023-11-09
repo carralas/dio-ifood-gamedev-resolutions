@@ -2,10 +2,9 @@ const input = [4, 86, 30, 56, 60];
 let k = 0;
 
 function gets() {
+    output = input[k]
     k++;
-    if (k <= input.length){
-        return input[k];
-    }
+    return output;
 }
 
 function print(texto) {
