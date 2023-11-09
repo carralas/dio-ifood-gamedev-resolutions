@@ -1,5 +1,11 @@
+const input = [4, 86, 30, 56, 60];
+let k = 0;
+
 function gets() {
-    return 10;
+    k++;
+    if (k <= input.length){
+        return input[k];
+    }
 }
 
 function print(texto) {
